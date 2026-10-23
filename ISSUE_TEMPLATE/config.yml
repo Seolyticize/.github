@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Docs and agent quick start
+    url: https://seolyticize.com/AGENTS.md
+    about: How to connect a site, call tools and read errors.
+  - name: Report a security issue
+    url: https://github.com/Seolyticize/.github/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately, not as an issue.

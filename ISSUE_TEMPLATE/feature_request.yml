@@ -1,0 +1,15 @@
+name: Feature request
+description: Something you need that Seolyticize does not do yet.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What you are trying to do
+      description: The job, not the solution — what you would do with it.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: What you do today instead

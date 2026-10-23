@@ -1,0 +1,25 @@
+name: Bug report
+description: Something in an SDK, plugin or the API does not work as documented.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The call you made (tool name and input, with keys removed) and what came back.
+    validations:
+      required: true
+  - type: input
+    id: request
+    attributes:
+      label: requestId
+      description: From the error body or the x-request-id header. It lets us find the server's side.
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: input
+    id: version
+    attributes:
+      label: Version and environment
+      description: e.g. sdk-python 0.1.0, Python 3.12, macOS
