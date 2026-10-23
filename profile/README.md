@@ -29,10 +29,10 @@ No one opens Google's settings: the agency's Google account proves ownership wit
 
 |                 | Install                                                                       |                                                                 |
 | --------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| **TypeScript**  | `npm i github:Seolyticize/sdk-typescript`                                     | [sdk-typescript](https://github.com/Seolyticize/sdk-typescript) |
+| **TypeScript**  | `npm i @seolyticize/sdk`                                     | [sdk-typescript](https://github.com/Seolyticize/sdk-typescript) |
 | **Python**      | `pip install git+https://github.com/Seolyticize/sdk-python`                   | [sdk-python](https://github.com/Seolyticize/sdk-python)         |
 | **Go**          | `go get github.com/Seolyticize/sdk-go`                                        | [sdk-go](https://github.com/Seolyticize/sdk-go)                 |
-| **CLI**         | `npm i -g github:Seolyticize/cli`                                             | [cli](https://github.com/Seolyticize/cli)                       |
+| **CLI**         | `npm i -g @seolyticize/cli`                                             | [cli](https://github.com/Seolyticize/cli)                       |
 | **MCP**         | `claude mcp add --transport http seolyticize https://seolyticize.com/api/mcp` | sign in, or a key header · stdio: `seolyticize mcp`             |
 | **Claude Code** | `/plugin marketplace add Seolyticize/claude-plugin`                           | [claude-plugin](https://github.com/Seolyticize/claude-plugin)   |
 | **REST**        | `POST https://seolyticize.com/api/v1/tools/{name}`                            | [OpenAPI](https://seolyticize.com/api/v1/openapi.json)          |
