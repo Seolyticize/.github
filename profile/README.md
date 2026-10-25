@@ -1,7 +1,7 @@
 <h1 align="center">Seolyticize</h1>
 
 <p align="center"><b>SEO for agencies and the agents that run sites.</b><br>
-Search Console and GA4, a 144-check site crawler, cookieless analytics, IndexNow, AI-assistant visibility, rank tracking and keyword research — ~200 tools over one API, MCP, SDKs and a CLI.</p>
+Search Console and GA4, a 170-check site crawler, cookieless analytics, IndexNow, AI-assistant visibility, rank tracking and keyword research — about 500 tools over one API, MCP, SDKs and a CLI.</p>
 
 <p align="center">
   <a href="https://seolyticize.com">Website</a> ·
@@ -30,7 +30,7 @@ No one opens Google's settings: the agency's Google account proves ownership wit
 |                 | Install                                                                       |                                                                 |
 | --------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | **TypeScript**  | `npm i @seolyticize/sdk`                                                      | [sdk-typescript](https://github.com/Seolyticize/sdk-typescript) |
-| **Python**      | `pip install git+https://github.com/Seolyticize/sdk-python`                   | [sdk-python](https://github.com/Seolyticize/sdk-python)         |
+| **Python**      | `pip install seolyticize`                                                     | [sdk-python](https://github.com/Seolyticize/sdk-python)         |
 | **Go**          | `go get github.com/Seolyticize/sdk-go`                                        | [sdk-go](https://github.com/Seolyticize/sdk-go)                 |
 | **CLI**         | `npm i -g @seolyticize/cli`                                                   | [cli](https://github.com/Seolyticize/cli)                       |
 | **MCP**         | `claude mcp add --transport http seolyticize https://seolyticize.com/api/mcp` | sign in, or a key header · stdio: `seolyticize mcp`             |
